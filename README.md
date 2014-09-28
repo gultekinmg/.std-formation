@@ -13,9 +13,9 @@ child branch counts might not be named but interpreted from arising element whic
 ```html
 
 VAR MYARRAYDATA.STD = [
-  ID  ,NAME ,LASTNAME ,HOBBIES                                      ,REVENUES
-  001 ,A    ,A        ,{SURF, ATHLETISM{MARATHON,DECATHLON}, MUSIC} ,{2014{MARCH{$2000},APRIL{$1750}}}
-  002 ,B    ,B        ,{BOXING, SEX}                                ,{2014{APRIL{$150}}}
-  003 ,C    ,C        ,                                             ,{2014{MARCH{$6000},APRIL{$8750}}}
+  ID  ,NAME ,LASTNAME ,HOBBIES                                      ,REVENUES                           ,CHILDS
+  001 ,A    ,A        ,{SURF, ATHLETISM{MARATHON,DECATHLON}, MUSIC} ,{2014{MARCH{$2000},APRIL{$1750}}}  ,{012,013}
+  002 ,B    ,B        ,{BOXING, SEX}                                ,{2014{APRIL{$150}}}                ,003
+  003 ,C    ,C        ,                                             ,{2014{MARCH{$6000},APRIL{$8750}}}  ,
 ];
 ```
