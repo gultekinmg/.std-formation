@@ -17,5 +17,8 @@ VAR MYARRAYDATA.STD = [
   001 ,A    ,A        ,{SURF, ATHLETISM{MARATHON,DECATHLON}, MUSIC} ,{2014{MARCH{$2000},APRIL{$1750}}}  ,{012,013}
   002 ,B    ,B        ,{BOXING, SEX}                                ,{2014{APRIL{$150}}}                ,003
   003 ,C    ,C        ,                                             ,{2014{MARCH{$6000},APRIL{$8750}}}  ,
+  ...
+  ..
+  .
 ];
 ```
