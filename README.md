@@ -13,10 +13,12 @@ child branch counts might not be named but interpreted from arising element whic
 ```html
 
 VAR MYARRAYDATA.STD = [
-  ID  ,NAME ,LASTNAME ,HOBBIES                                      ,REVENUES                           ,CHILDS     ,PARENTS 
-  001 ,A    ,A        ,{SURF, ATHLETISM{MARATHON,DECATHLON}, MUSIC} ,{2014{MARCH{$2000},APRIL{$1750}}}  ,{012,003}  ,dead
-  002 ,B    ,B        ,{BOXING, SEX}                                ,{2014{APRIL{$150}}}                ,003        ,dead
-  003 ,C    ,C        ,                                             ,{2014{MARCH{$6000},APRIL{$8750}}}  ,           ,{FATHER{002,001},MOTHER{/*other kind parenthoods*/}}
+  {ID  ,NAME ,LASTNAME ,HOBBIES                                      ,REVENUES                           ,CHILDS     ,PARENTS}, 
+  {001 ,A    ,A        ,{SURF, ATHLETISM{MARATHON,DECATHLON}, MUSIC} ,{2014{MARCH{$2000},APRIL{$1750}}}  ,{012,003}  ,dead},
+  {002 ,B    ,B        ,{BOXING, SEX}                                ,{2014{APRIL{$150}}}                ,003        ,dead},
+  {003 ,C    ,A        ,                                             ,{2014{MARCH{$6000},APRIL{$8750}}}  ,           ,{FATHER{002,001},MOTHER{/*other kind parenthoods "reverse.Tree" */}}},
+  {004 ,C    ,A        ,{ARCADE}                                     ,                                   ,           ,001},
+ ^ not the same person with '003'.
   ...
   ..
   .
@@ -28,3 +30,13 @@ as it seen data formation itself tells much the way it is constructed. ex. Membe
 
 with recent data formations you have to replicate record of a member more in **tree** as a "legal-child" and "orginal-child".
 that presentation unify each member that might be related different tree branches.
+
+Pros:
+* Natural,easy and clean presentation.
+* Local availability.
+* Object & nodes usage.
+* Reverse Tree.
+* Relational Infinite Tree Branches.
+* Size reduction.
+* easy faster filtering.
+
