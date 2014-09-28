@@ -1,0 +1,4 @@
+.std-formation
+==============
+
+StandardTextData formation.
