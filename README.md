@@ -22,3 +22,4 @@ VAR MYARRAYDATA.STD = [
   .
 ];
 ```
+as it seen data formation iltself tells much the way it is constructed. ex. Member 003 which works hard gets his desperade father labored. 
