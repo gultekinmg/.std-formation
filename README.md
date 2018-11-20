@@ -24,8 +24,9 @@ VAR MYARRAYDATA.STD = [
 ];
 ```
 > ^ member 004 is not the same person with '003'.
+
 as it seen data formation itself tells much the way it is constructed.
-> ex. __Member 003 which works hard gets his desperade father labored at his fatherinlaw's company. __
+**> ex. Member 003 which works hard gets his desperade father labored at his fatherinlaw's company.**
 
 {,{},,} outcome sampling surpresses needing **relational table data** with distinct tree branches.
 
