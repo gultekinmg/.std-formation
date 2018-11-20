@@ -9,7 +9,7 @@ it maybe identified as treefied csv data for javascipt.
 
 heading key nodes are determined at **[0]**,
 child branch counts might not be named but interpreted from arising element which should have been private for each member naturally.
-```json
+```javascript
 
 VAR MYARRAYDATA.STD = [
   {ID  ,NAME ,LASTNAME ,HOBBIES                                      ,REVENUES                           ,CHILDS     ,PARENTS}, 
