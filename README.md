@@ -14,10 +14,10 @@ child branch counts might not be named but interpreted from arising element whic
 
 VAR MYARRAYDATA.STD = [
   {ID  ,NAME ,LASTNAME ,HOBBIES                                      ,REVENUES                           ,CHILDS     ,PARENTS}, 
-  {001 ,A    ,A        ,{SURF, ATHLETISM{MARATHON,DECATHLON}, MUSIC} ,{2014{MARCH{$2000},APRIL{$1750}}}  ,{012,003}  ,dead},
-  {002 ,B    ,B        ,{BOXING, SEX}                                ,{2014{APRIL{$150}}}                ,003        ,dead},
-  {003 ,C    ,A        ,                                             ,{2014{MARCH{$6000},APRIL{$8750}}}  ,           ,{FATHER{002,001},MOTHER{/*-other-kind-parenthoods-"reverse.Tree"-*/}}},
-  {004 ,C    ,A        ,{ARCADE}                                     ,                                   ,           ,001},
+  {001 ,A    ,Aa       ,{SURF, ATHLETISM{MARATHON,DECATHLON}, MUSIC} ,{2014{MARCH{$2000},APRIL{$1750}}}  ,{012,003}  ,dead},
+  {002 ,B    ,Bb       ,{BOXING, SEX}                                ,{2014{APRIL{$150}}}                ,003        ,dead},
+  {003 ,C    ,Aa       ,                                             ,{2014{MARCH{$6000},APRIL{$8750}}}  ,           ,{FATHER{002,001},MOTHER{/*-other-kind-parenthoods-"reverse.Tree"-*/}}},
+  {004 ,C    ,Aa       ,{ARCADE}                                     ,                                   ,           ,001},
   ...
   ..
   .
