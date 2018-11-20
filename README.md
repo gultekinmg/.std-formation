@@ -34,11 +34,11 @@ with recent data formations you have to replicate record of a member more in **t
 that presentation unify each member that might be related different tree branches.
 
 Pros:
-[*] Natural,easy and clean presentation.
-[*] Local availability.
-[*] Object & nodes usage.
-[*] Reverse Tree.
-[*] Relational Infinite Tree Branches.
-[*] Size reduction.
-[*] easy faster filtering.
+* Natural,easy and clean presentation.
+* Local availability.
+* Object & nodes usage.
+* Reverse Tree.
+* Relational Infinite Tree Branches.
+* Size reduction.
+* easy faster filtering.
 
