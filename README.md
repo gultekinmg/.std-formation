@@ -17,12 +17,12 @@ VAR MYARRAYDATA.STD = [
   {002 ,B    ,B        ,{BOXING, SEX}                                ,{2014{APRIL{$150}}}                ,003        ,dead},
   {003 ,C    ,A        ,                                             ,{2014{MARCH{$6000},APRIL{$8750}}}  ,           ,{FATHER{002,001},MOTHER{/*other kind parenthoods "reverse.Tree" */}}},
   {004 ,C    ,A        ,{ARCADE}                                     ,                                   ,           ,001},
-> ^ member 004 is not the same person with '003'.
   ...
   ..
   .
 ];
 ```
+> ^ member 004 is not the same person with '003'.
 as it seen data formation itself tells much the way it is constructed.
 > ex. __Member 003 which works hard gets his desperade father labored at his fatherinlaw's company. __
 
