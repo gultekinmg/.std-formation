@@ -5,6 +5,7 @@
 STD text data formation has been projected
 to bypass **CSV** primitiveness and **JSON** crowded standardization due to achive better defined tree formed data constructions
 and eliminate cross reference errors.
+
 it maybe identified as treefied csv data for javascipt.
 
 heading key nodes are determined at **[0]**,
