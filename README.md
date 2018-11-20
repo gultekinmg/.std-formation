@@ -1,5 +1,4 @@
 # .std-formation
-==============
 
 ### StandardTextData formation.
 
@@ -10,7 +9,7 @@ it maybe identified as treefied csv data for javascipt.
 
 heading key nodes are determined at **[0]**,
 child branch counts might not be named but interpreted from arising element which should have been private for each member naturally.
-```html
+```json
 
 VAR MYARRAYDATA.STD = [
   {ID  ,NAME ,LASTNAME ,HOBBIES                                      ,REVENUES                           ,CHILDS     ,PARENTS}, 
@@ -18,13 +17,14 @@ VAR MYARRAYDATA.STD = [
   {002 ,B    ,B        ,{BOXING, SEX}                                ,{2014{APRIL{$150}}}                ,003        ,dead},
   {003 ,C    ,A        ,                                             ,{2014{MARCH{$6000},APRIL{$8750}}}  ,           ,{FATHER{002,001},MOTHER{/*other kind parenthoods "reverse.Tree" */}}},
   {004 ,C    ,A        ,{ARCADE}                                     ,                                   ,           ,001},
- ^ not the same person with '003'.
+> ^ member 004 is not the same person with '003'.
   ...
   ..
   .
 ];
 ```
-as it seen data formation itself tells much the way it is constructed. ex. Member 003 which works hard gets his desperade father labored at his fatherinlaw's company. 
+as it seen data formation itself tells much the way it is constructed.
+> ex. __Member 003 which works hard gets his desperade father labored at his fatherinlaw's company. __
 
 {,{},,} outcome sampling surpresses needing **relational table data** with distinct tree branches.
 
@@ -32,11 +32,11 @@ with recent data formations you have to replicate record of a member more in **t
 that presentation unify each member that might be related different tree branches.
 
 Pros:
-* Natural,easy and clean presentation.
-* Local availability.
-* Object & nodes usage.
-* Reverse Tree.
-* Relational Infinite Tree Branches.
-* Size reduction.
-* easy faster filtering.
+[*] Natural,easy and clean presentation.
+[*] Local availability.
+[*] Object & nodes usage.
+[*] Reverse Tree.
+[*] Relational Infinite Tree Branches.
+[*] Size reduction.
+[*] easy faster filtering.
 
